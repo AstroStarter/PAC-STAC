@@ -14,7 +14,7 @@
 		"dev": "turbo run dev"
 	},
 	"devDependencies": {
-		"@lightrix/config": "0.0.8",
+		"@lightrix/config": "0.0.9",
 		"@types/node": "18.15.11",
 		"turbo": "latest"
 	},
