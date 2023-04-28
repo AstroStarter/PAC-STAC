@@ -1,24 +1,24 @@
 {
-	"name": "pac-stac",
-	"version": "0.0.1",
-	"private": true,
-	"workspaces": [
-		"app/**"
-	],
-	"packageManager": "pnpm@7.27.1",
-	"engines": {
-		"node": ">=14.0.0"
-	},
-	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev"
-	},
-	"devDependencies": {
-		"@lightrix/config": "0.0.11",
-		"@types/node": "18.16.2",
-		"turbo": "latest"
-	},
-	"publishConfig": {
-		"access": "restricted"
-	}
+    "devDependencies": {
+        "@lightrix/config": "0.0.11",
+        "@types/node": "18.16.2",
+        "turbo": "latest"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "name": "pac-stac",
+    "packageManager": "pnpm@7.27.1",
+    "private": true,
+    "publishConfig": {
+        "access": "restricted"
+    },
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev"
+    },
+    "version": "0.0.1",
+    "workspaces": [
+        "app/**"
+    ]
 }
