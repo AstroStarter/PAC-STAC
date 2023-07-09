@@ -2,10 +2,9 @@
 	"name": "pac-stac",
 	"version": "0.0.1",
 	"private": true,
-	"workspaces": ["app/**"],
-	"engines": {
-		"node": ">=14.0.0"
-	},
+	"workspaces": [
+		"app/**"
+	],
 	"scripts": {
 		"build": "turbo run build",
 		"dev": "turbo run dev"
@@ -14,6 +13,9 @@
 		"@lightrix/config": "0.0.11",
 		"@types/node": "20.4.1",
 		"turbo": "latest"
+	},
+	"engines": {
+		"node": ">=14.0.0"
 	},
 	"publishConfig": {
 		"access": "restricted"
