@@ -2,9 +2,7 @@
 	"name": "pac-stac",
 	"version": "0.0.1",
 	"private": true,
-	"workspaces": [
-		"app/**"
-	],
+	"workspaces": ["app/**"],
 	"engines": {
 		"node": ">=14.0.0"
 	},
@@ -21,4 +19,3 @@
 		"access": "restricted"
 	}
 }
-
