@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {
 		"@lightrix/config": "0.0.11",
-		"@types/node": "20.4.2",
+		"@types/node": "20.4.3",
 		"turbo": "latest"
 	},
 	"engines": {
