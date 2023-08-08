@@ -1,6 +1,6 @@
 {
 	"name": "pac-stac",
-	"version": "0.0.1",
+	"version": "2.0.0",
 	"private": true,
 	"workspaces": [
 		"app/**"
@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {
 		"@lightrix/configuration": "0.0.1",
-		"@types/node": "20.4.7",
+		"@types/node": "20.4.8",
 		"turbo": "latest"
 	},
 	"engines": {
