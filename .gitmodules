@@ -1,6 +1,6 @@
 [submodule "app/web"]
-	path = app/web
-	url = ssh://git@github.com/astro-starters/pac-stac-web.git
+path = app/web
+url = ssh://git@github.com/AstroStarter/pac-stac-web.git
 [submodule "app/content"]
-	path = app/content
-	url = ssh://git@github.com/astro-starters/pac-stac-content.git
+path = app/content
+url = ssh://git@github.com/AstroStarter/pac-stac-content.git
