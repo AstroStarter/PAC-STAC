@@ -1,9 +1,9 @@
 {
-	"name": "pac-stac",
-	"version": "2.0.0",
+	"name": "pac-stack",
+	"version": "0.0.1",
 	"license": "MIT",
 	"workspaces": [
-		"app/**"
+		"Application/**"
 	],
 	"scripts": {
 		"build": "turbo run build",
