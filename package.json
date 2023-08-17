@@ -1,14 +1,20 @@
 {
 	"name": "pac-stack",
 	"version": "0.0.1",
+	"private": "false",
 	"license": "MIT",
+	"author": {
+		"name": "Nikola Hristov",
+		"email": "nikola@nikolahristov.tech",
+		"url": "https://nikolahristov.tech"
+	},
 	"workspaces": [
 		"Application/**"
 	],
 	"scripts": {
 		"build": "turbo run build",
-		"prepublishOnly": "turbo run prepublishOnly",
-		"dev": "turbo run dev"
+		"dev": "turbo run dev",
+		"prepublishOnly": "turbo run prepublishOnly"
 	},
 	"devDependencies": {
 		"@types/node": "20.5.0",
@@ -16,5 +22,8 @@
 	},
 	"engines": {
 		"node": ">=14.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
