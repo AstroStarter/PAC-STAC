@@ -12,7 +12,6 @@
 		"Application/**"
 	],
 	"scripts": {
-		"build": "turbo run build",
 		"dev": "turbo run dev",
 		"prepublishOnly": "turbo run prepublishOnly"
 	},
