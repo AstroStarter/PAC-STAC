@@ -9,7 +9,9 @@
 		"url": "https://nikolahristov.tech"
 	},
 	"workspaces": [
-		"Application/**"
+		"Application/**",
+		"!Application/**/dist",
+		"!Application/**/build"
 	],
 	"scripts": {
 		"dev": "turbo run dev",
