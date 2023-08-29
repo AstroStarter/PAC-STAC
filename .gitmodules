@@ -1,7 +1,7 @@
 [submodule "Application/Website"]
 path = Application/Website
-url = ssh://git@github.com/AstroStarter/PACStackWebsite.git
+url = ssh://git@github.com/AstroStarter/PAC-STAC-Website.git
 
 [submodule "Application/Content"]
 path = Application/Content
-url = ssh://git@github.com/AstroStarter/PACStackContent.git
+url = ssh://git@github.com/AstroStarter/PAC-STAC-Content.git
