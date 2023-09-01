@@ -19,7 +19,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "20.5.7",
-		"turbo": "latest"
+		"turbo": "1.10.13"
 	},
 	"engines": {
 		"node": ">=14.0.0"
