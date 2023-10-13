@@ -18,7 +18,7 @@
 		"prepublishOnly": "turbo run prepublishOnly"
 	},
 	"devDependencies": {
-		"@types/node": "20.8.4",
+		"@types/node": "20.8.5",
 		"turbo": "1.10.15"
 	},
 	"engines": {
